@@ -41,26 +41,6 @@ body, html{
     top: 0;
     z-index: 1000;
 }
-/* #navbar2{
-    background-color: rgb(36, 56, 190);
-    padding: 10px;
-    overflow: hidden;
-    font-size: 1.5em;
-    font-family:Andale Mono, monospace;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-#navbar2 a{
-    float: right;
-    color: #FCF6F5FF;
-    text-align: center;
-    padding: 7px 20px;
-    text-decoration: none;
-    transition: background-color 0.2s, color 0.1s;
-} */
 
 #navbar a{
     display: inline-block;
@@ -72,7 +52,7 @@ body, html{
 }
 
 #navbar a i {
-    font-size: 20px; 
+    font-size: 20px;
     margin-right: 5px;
     vertical-align: middle;
   }
@@ -113,6 +93,7 @@ body, html{
     transition: background-color 0.2s, color 0.1s;
 }
 
+/* Sections */
 .aboutSection{
     display: flex;
     justify-content: center;
@@ -129,6 +110,9 @@ body, html{
     font-family:Andale Mono, monospace;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .icon-image{
