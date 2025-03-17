@@ -106,3 +106,57 @@ body, html{
     font-size: 1.5em;
     transition: background-color 0.2s, color 0.1s;
 }
+
+.aboutSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.about{
+    width: 30%;
+    padding: 20px;
+    background-color: #FCF6F5FF;
+    color: #990011ff;
+    font-family:Andale Mono, monospace;
+}
+
+.schools{
+    width: 30%;
+    padding: 20px;
+    background-color: #FCF6F5FF;
+    color: #990011ff;
+    font-family:Andale Mono, monospace;
+}
+
+.admission{
+    width: 30%;
+    padding: 20px;
+    background-color: #FCF6F5FF;
+    color: #990011FF;
+    font-family:Andale Mono, monospace;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+    font-family:Andale Mono, monospace;
+    margin: 10px 20px;
+}
+
+.div1{
+    width: 70%;
+    padding: 20px;
+    background-color: #FCF6F5FF;
+    color: #990011ff;
+}
+
+.div2{  
+    width: 30%;
+    padding: 20px;
+    background-color: #FCF6F5FF;
+    color: #990011FF;
+}
