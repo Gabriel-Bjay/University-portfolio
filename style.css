@@ -63,13 +63,19 @@ body, html{
 } */
 
 #navbar a{
-    float: left;
-    color: #FCF6F5FF;
-    text-align: center;
-    padding: 7px 20px;
+    display: inline-block;
+    padding: 10px;
     text-decoration: none;
+    color: #333;
+    font-size: 20px;
     transition: background-color 0.2s, color 0.1s;
 }
+
+#navbar a i {
+    font-size: 20px; 
+    margin-right: 5px;
+    vertical-align: middle;
+  }
 
 #navbar a:hover{
     background-color: #FCF6F5FF;
@@ -110,53 +116,23 @@ body, html{
 .aboutSection{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    max-width: 100%;
+    margin: 50px auto;
     gap: 20px;
 }
 
-.about{
+.aboutSection > div{
     width: 30%;
     padding: 20px;
-    background-color: #FCF6F5FF;
+    background-color: rgb(255, 227, 222);
     color: #990011ff;
     font-family:Andale Mono, monospace;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.schools{
-    width: 30%;
-    padding: 20px;
-    background-color: #FCF6F5FF;
-    color: #990011ff;
-    font-family:Andale Mono, monospace;
-}
-
-.admission{
-    width: 30%;
-    padding: 20px;
-    background-color: #FCF6F5FF;
-    color: #990011FF;
-    font-family:Andale Mono, monospace;
-}
-
-.row2{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 20px;
-    font-family:Andale Mono, monospace;
-    margin: 10px 20px;
-}
-
-.div1{
-    width: 70%;
-    padding: 20px;
-    background-color: #FCF6F5FF;
-    color: #990011ff;
-}
-
-.div2{  
-    width: 30%;
-    padding: 20px;
-    background-color: #FCF6F5FF;
-    color: #990011FF;
+.icon-image{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
