@@ -8,28 +8,40 @@
     <script src="https://kit.fontawesome.com/383b5a9765.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div id="headerContent">
             <h1>Riara School of Computing Sciences</h1>
             <p>Nurturing Innovators</p>
         </div>
     </header>
+
     <!-- Nav Bar -->
      <nav id="navbar">
-        <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-        <a href=""><i class="fa-solid fa-info"></i>About</a>
-        <a href="#"><i class="fa-solid fa-building-columns"></i>Admissions</a>
-        <a href="#"> <i class="fa-solid fa-address-card"></i>Contact</a>
+        <a href="#bannerImage"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="#about"><i class="fa-solid fa-info"></i>About</a>
+        <a href="#admissions"><i class="fa-solid fa-building-columns"></i>Admissions</a>
+        <a href="#contact"> <i class="fa-solid fa-address-card"></i>Contact</a>
      </nav>
     <!-- Main Content -->
     <main>
-        <section class="bannerImage">
+        <!-- Home section -->
+        <section id="bannerImage">
             <h2>Welcome to Riara University<br> school of Computing Sciences</h2>
             <p>Nurturing Innovators</p>
             <a href="https://riarauniversity.ac.ke/" target="_parent">Visit Website</a>
         </section>
 
-        <section class="aboutSection">
+        <!-- About Section -->
+        <section id="about" class="contentSection">
+            <h2>About Us</h2>
+            <p>Riara School of Computing Sciences is dedicated to providing cutting-edge education in technology, empowering students with knowledge and practical skills.</p>
+            <h3>Our Mission</h3>
+            <p>We aim to nurture future tech innovators through quality education, hands-on projects, and industry collaborations.</p>
+        </section>
+
+        <!-- Course section -->
+        <section id="courseSection" >
             <div>
                 <h1>Web Development</h1>
                 <img src="images/icon.webp" alt="" srcset="" class="icon-image">
@@ -47,6 +59,57 @@
 
             </div>
         </section>
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="contentSection">
+            <h2>Admissions</h2>
+            <p>Join the Riara School of Computing Sciences by following these steps:</p>
+            <ol>
+                <li>Fill out the online application form.</li>
+                <li>Submit required documents (certificates, transcripts, etc.).</li>
+                <li>Pay the application fee.</li>
+                <li>Attend an admission interview (if required).</li>
+                <li>Receive your admission letter.</li>
+            </ol>
+            <p>For more details, contact <a href="mailto:admissions@riarauniversity.ac.ke">admissions@riarauniversity.ac.ke</a></p>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contentSection">
+            <h2>Contact Us</h2>
+            <p><strong>Email:</strong> <a href="mailto:info@riarauniversity.ac.ke">info@riarauniversity.ac.ke</a></p>
+            <p><strong>Phone:</strong> +254 712 345 678</p>
+            <p><strong>Address:</strong> Riara University, Nairobi, Kenya</p>
+    
+            <h3>Send Us a Message</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
+    <!-- Footer -->
+    <footer style="background-color:#990011FF; color:#FCF6F5FF; text-align:center; padding:15px;">
+        <p>&copy; 2025 Riara University - School of Computing Sciences</p>
+    </footer>
+    <script>
+        window.addEventListener("scroll", function () {
+            let navbar = document.getElementById("navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("shrink"); // Shrink navbar when scrolled
+            } else {
+                navbar.classList.remove("shrink"); // Restore original size
+            }
+        });
+    </script>
+    
 </body>
 </html>
