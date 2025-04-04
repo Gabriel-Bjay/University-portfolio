@@ -25,3 +25,25 @@ You can check out the live version of this project **[here](https://gabriel-bjay
 1. Clone the repository:
    ```bash
    git clone https://github.com/Gabriel-Bjay/University-portfolio.git
+2. Open the index.html file in a browser.
+
+
+## 📸 Preview
+![Website Screenshot](images/preview.png)
+
+
+## 📩 Contributing
+Feel free to contribute! If you’d like to improve this project:
+
+Fork the repo.
+
+Create a new branch (git checkout -b feature-branch).
+
+Make changes and commit (git commit -m "Your message").
+
+Push to the branch (git push origin feature-branch).
+
+Open a Pull Request.
+
+## 📜 License
+This project is for educational purposes. Feel free to modify and use it as a reference.
