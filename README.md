@@ -19,7 +19,7 @@ A simple and visually appealing website for the **Riara School of Computing Scie
 /project-root │── images/ # Contains images used in the project │── index.html # Main website file │── style.css # Styling for all sections │── README.md # Project documentation (this file)
 
 ## 🖥️ Live Demo (Optional)
-You can check out the live version of this project **[here](#)**.
+You can check out the live version of this project **[here](https://gabriel-bjay.github.io/University-portfolio/)**.
 
 ## 📌 Installation & Usage
 1. Clone the repository:
